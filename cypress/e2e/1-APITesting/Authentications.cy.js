@@ -44,7 +44,7 @@ describe("Authentication", () => {
     })// it closes
 
     //uncomment below line -  this commented to push to github , github does not allow tokens / secrets
-   // const token='xxxxxx'  //we get this token from Github/settings/tokens
+    const token='xxxxxx'  //we get this token from Github/settings/tokens
 
     it("BearerToken Authentication",()=> {
 
