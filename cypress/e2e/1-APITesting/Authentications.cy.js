@@ -44,7 +44,7 @@ describe("Authentication", () => {
     })// it closes
 
 
-    const token='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'  //we get this token from Github/settings/tokens
+    const token='xxxxxx'  //we get this token from Github/settings/tokens
 
     it("BearerToken Authentication",()=> {
 
@@ -74,7 +74,7 @@ describe("Authentication", () => {
                 url : "api.openweathermap.org/data/2.5/forecast/daily",
                 qs:{
                     q:'Delhi',
-                    appid:'fe9c5cddb7e01d747b4611c3fc9eaf2c',    //this is API key and value
+                    appid:'xxxxxxx',    //this is API key and value
 
                 }
                
